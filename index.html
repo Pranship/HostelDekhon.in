@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Dekho - Find & Book Hostels in India</title>
+    <meta name="description" content="Find and book the best hostels across India. Discover affordable accommodation with verified reviews and secure booking.">
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      
+      @keyframes fadeUp {
+        from { 
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to { 
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .animate-fade-in {
+        animation: fadeIn 0.8s ease-in-out forwards;
+      }
+      
+      .animate-fade-up {
+        animation: fadeUp 0.8s ease-out forwards;
+      }
+      
+      .animation-delay-200 {
+        animation-delay: 0.2s;
+      }
+      
+      .animation-delay-400 {
+        animation-delay: 0.4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
